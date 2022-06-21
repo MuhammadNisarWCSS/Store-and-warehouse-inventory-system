@@ -1,6 +1,11 @@
 
 Author : Muhammad Nisar 
 
+Helps stores and warehouses manage their inventory and allows stores to receive product from their warehouse if they are low on stock.
+At the moment, this application is only supported on linux.
+
+
+
 Files : Control.h Control.cc (Handles the Control class)
         defs.h (Contains standard definitions)
         List.h List.cc (Handles the list)
