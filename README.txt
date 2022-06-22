@@ -1,7 +1,23 @@
 
 Author : Muhammad Nisar 
 
-Helps stores and warehouses manage their inventory and allows stores to receive product from their warehouse if they are low on stock.
+An inventory system for a store that helps manage product inventory and allows the store to request more products from their warehouse if they are low on stock.
+
+This store will sell a number of Products. Each product has a StoreLocation. 
+These locations are in the main store area where shoppers shop. 
+Each product may have zero or more overstock locations in the warehouse. 
+The products in the warehouse are stored on skids. 
+Each skid consists of a single type of Product wrapped in plastic. 
+The places where skids are stored will be called WHLocations (warehouse locations). 
+Because WHLocations can only accept skids, they will be treated differently than StoreLocations, 
+and inheritance will be used to implement the two different styles of Locations.
+
+Data structures used :
+        - Linked List
+        - Queue
+        - Arrays
+
+
 At the moment, this application is only supported on linux.
 
 
